@@ -14,7 +14,7 @@
 - [x] Implement answer validation and scoring logic  
 - [x] Add basic navigation between puzzles  
 - [x] Test with ~20 puzzles from base pack  
-- [ ] Increase icon sizes in the game UI for better visibility
+- [x] Increase icon sizes in the game UI for better visibility
 
 ---
 

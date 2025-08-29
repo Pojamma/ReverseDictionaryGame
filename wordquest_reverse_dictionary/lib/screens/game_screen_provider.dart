@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/game_provider.dart';
+import '../widgets/difficulty_selector.dart';
 
 class GameScreenProvider extends StatefulWidget {
   const GameScreenProvider({super.key});
@@ -229,13 +230,15 @@ class _GameScreenProviderState extends State<GameScreenProvider> with TickerProv
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      const CompactDifficultyIndicator(),
+                      const SizedBox(height: 4),
                       Text(
                         '${gameProvider.currentPuzzleIndex + 1} / ${gameProvider.puzzles.length}',
-                        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                        style: const TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                       ),
                       Text(
                         '${gameProvider.totalScore} pts',
-                        style: TextStyle(fontSize: 12, color: Colors.grey.shade600),
+                        style: TextStyle(fontSize: 11, color: Colors.grey.shade600),
                       ),
                     ],
                   ),

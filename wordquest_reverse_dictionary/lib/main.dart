@@ -4,6 +4,7 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'providers/game_provider.dart';
 import 'services/puzzle_initialization_service.dart';
 import 'screens/game_screen_provider.dart';
+import 'widgets/difficulty_selector.dart';
 
 void main() {
   // Initialize database factory for web/desktop
@@ -123,6 +124,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   style: const TextStyle(fontSize: 12, color: Colors.grey),
                 ),
               ],
+            ],
+            
+            // Difficulty Selector (only show when initialized)
+            if (_status?.isInitialized == true) ...[
+              const SizedBox(height: 20),
+              const DifficultySelector(),
             ],
           ],
         ),

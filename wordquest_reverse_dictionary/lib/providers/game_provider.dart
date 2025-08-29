@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import '../models/puzzle.dart';
+import '../models/difficulty_progression.dart';
 import '../services/adaptive_database_service.dart';
 
 enum GameStatus {
@@ -21,6 +22,10 @@ class GameProvider extends ChangeNotifier {
   bool _isCorrect = false;
   bool _isAnswering = false;
   String? _errorMessage;
+  
+  // Difficulty Progression
+  UserProgressData _userProgress = UserProgressData.initial();
+  DifficultyLevel _currentDifficulty = DifficultyLevel.easy;
   
   // Game Statistics
   int _totalScore = 0;
@@ -44,20 +49,28 @@ class GameProvider extends ChangeNotifier {
   int get remainingPuzzles => _puzzles.length - _currentPuzzleIndex - 1;
   double get progress => _puzzles.isNotEmpty ? (_currentPuzzleIndex + 1) / _puzzles.length : 0.0;
   
-  // Initialize game with puzzles
+  // Difficulty Progression Getters
+  UserProgressData get userProgress => _userProgress;
+  DifficultyLevel get currentDifficulty => _currentDifficulty;
+  List<DifficultyLevel> get availableDifficulties => _userProgress.availableLevels;
+  bool get canProgressToNextLevel => _getCurrentDifficultyProgression().canUnlockNextLevel(
+        accuracy: _getDifficultyAccuracy(_currentDifficulty),
+      );
+  
+  // Initialize game with puzzles for current difficulty
   Future<void> initializeGame({int? limit = 20}) async {
     try {
       _status = GameStatus.loading;
       _errorMessage = null;
       notifyListeners();
       
-      final puzzles = await _databaseService.getPuzzles(limit: limit);
+      final puzzles = await _databaseService.getPuzzlesByDifficulty(_currentDifficulty.value);
       
       if (puzzles.isEmpty) {
         _status = GameStatus.error;
-        _errorMessage = 'No puzzles available';
+        _errorMessage = 'No puzzles available for ${_currentDifficulty.displayName} difficulty';
       } else {
-        _puzzles = puzzles;
+        _puzzles = puzzles.take(limit ?? 20).toList()..shuffle();
         _currentPuzzleIndex = 0;
         _status = GameStatus.playing;
         _resetFeedback();
@@ -90,6 +103,7 @@ class GameProvider extends ChangeNotifier {
     if (isCorrect) {
       _correctAnswers++;
       _totalScore += currentPuzzle!.points;
+      _updateUserProgress(correct: true);
       HapticFeedback.heavyImpact();
       
       // Auto-advance after 2 seconds on correct answer
@@ -97,6 +111,7 @@ class GameProvider extends ChangeNotifier {
         if (_isCorrect) nextPuzzle();
       });
     } else {
+      _updateUserProgress(correct: false);
       HapticFeedback.lightImpact();
     }
     
@@ -149,7 +164,97 @@ class GameProvider extends ChangeNotifier {
     return currentPuzzle?.hints.isNotEmpty == true ? currentPuzzle!.hints.first : null;
   }
   
-  // Load new set of puzzles (for different difficulty/category)
+  // Load puzzles for specific difficulty level
+  Future<void> loadPuzzlesForDifficulty(DifficultyLevel difficulty, {int? limit}) async {
+    _currentDifficulty = difficulty;
+    await initializeGame(limit: limit);
+  }
+  
+  // Switch difficulty level
+  Future<void> changeDifficulty(DifficultyLevel newDifficulty) async {
+    if (!_userProgress.isLevelUnlocked(newDifficulty)) {
+      throw Exception('Difficulty level ${newDifficulty.displayName} is not unlocked yet');
+    }
+    
+    _currentDifficulty = newDifficulty;
+    _resetGameStats();
+    await initializeGame();
+  }
+  
+  // Update user progress after each answer
+  void _updateUserProgress({required bool correct}) {
+    final currentSolved = _userProgress.puzzlesSolvedByDifficulty[_currentDifficulty] ?? 0;
+    final currentAttempts = _userProgress.totalAttemptsByDifficulty[_currentDifficulty] ?? 0;
+    
+    final newSolved = correct ? currentSolved + 1 : currentSolved;
+    final newAttempts = currentAttempts + 1;
+    
+    final updatedSolvedMap = Map<DifficultyLevel, int>.from(_userProgress.puzzlesSolvedByDifficulty);
+    updatedSolvedMap[_currentDifficulty] = newSolved;
+    
+    final updatedAttemptsMap = Map<DifficultyLevel, int>.from(_userProgress.totalAttemptsByDifficulty);
+    updatedAttemptsMap[_currentDifficulty] = newAttempts;
+    
+    _userProgress = _userProgress.copyWith(
+      puzzlesSolvedByDifficulty: updatedSolvedMap,
+      totalAttemptsByDifficulty: updatedAttemptsMap,
+    );
+    
+    // Check if user can unlock next difficulty level
+    _checkAndUnlockNextLevel();
+  }
+  
+  // Check if user can unlock the next difficulty level
+  void _checkAndUnlockNextLevel() {
+    final progression = _getCurrentDifficultyProgression();
+    if (progression.canUnlockNextLevel(accuracy: _getDifficultyAccuracy(_currentDifficulty))) {
+      final nextLevel = progression.nextLevel;
+      if (nextLevel != null && !_userProgress.isLevelUnlocked(nextLevel)) {
+        final updatedUnlockedMap = Map<DifficultyLevel, bool>.from(_userProgress.unlockedLevels);
+        updatedUnlockedMap[nextLevel] = true;
+        
+        _userProgress = _userProgress.copyWith(unlockedLevels: updatedUnlockedMap);
+        
+        // Trigger notification about unlock
+        _showLevelUnlockedNotification(nextLevel);
+      }
+    }
+  }
+  
+  // Get difficulty progression for current level
+  DifficultyProgression _getCurrentDifficultyProgression() {
+    final solved = _userProgress.puzzlesSolvedByDifficulty[_currentDifficulty] ?? 0;
+    final totalInLevel = 50; // Assume 50 puzzles per difficulty level (can be dynamic)
+    
+    return DifficultyProgression(
+      currentLevel: _currentDifficulty,
+      puzzlesSolvedInLevel: solved,
+      totalPuzzlesInLevel: totalInLevel,
+      isLevelUnlocked: _userProgress.isLevelUnlocked(_currentDifficulty),
+      progressInLevel: totalInLevel > 0 ? solved / totalInLevel : 0.0,
+    );
+  }
+  
+  // Get accuracy for specific difficulty level
+  double _getDifficultyAccuracy(DifficultyLevel level) {
+    return _userProgress.getAccuracyForLevel(level);
+  }
+  
+  // Show notification when new level is unlocked
+  void _showLevelUnlockedNotification(DifficultyLevel newLevel) {
+    // This could trigger a dialog or notification in the UI
+    // For now, just update feedback
+    _feedback = '🎉 Congratulations! ${newLevel.displayName} difficulty unlocked!';
+  }
+  
+  // Reset game statistics for new difficulty session
+  void _resetGameStats() {
+    _totalScore = 0;
+    _correctAnswers = 0;
+    _totalAttempts = 0;
+  }
+  
+  // Load new set of puzzles (for different difficulty/category) - Updated
   Future<void> loadPuzzles({
     int? limit,
     int? difficulty,
@@ -161,18 +266,21 @@ class GameProvider extends ChangeNotifier {
       _errorMessage = null;
       notifyListeners();
       
-      // For now, just load by limit. Later we can add filtering by difficulty, category, type
-      final puzzles = await _databaseService.getPuzzles(limit: limit ?? 20);
+      List<Puzzle> puzzles;
+      if (difficulty != null) {
+        final diffLevel = DifficultyLevel.fromValue(difficulty);
+        puzzles = await _databaseService.getPuzzlesByDifficulty(diffLevel.value);
+      } else {
+        puzzles = await _databaseService.getPuzzles(limit: limit ?? 20);
+      }
       
       if (puzzles.isEmpty) {
         _status = GameStatus.error;
         _errorMessage = 'No puzzles found for the selected criteria';
       } else {
-        _puzzles = puzzles;
+        _puzzles = puzzles.take(limit ?? 20).toList()..shuffle();
         _currentPuzzleIndex = 0;
-        _totalScore = 0;
-        _correctAnswers = 0;
-        _totalAttempts = 0;
+        _resetGameStats();
         _status = GameStatus.playing;
         _resetFeedback();
       }

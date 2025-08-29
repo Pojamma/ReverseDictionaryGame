@@ -212,7 +212,7 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
         actions: [
           IconButton(
             onPressed: _currentPuzzle?.hints.isNotEmpty == true ? _showHint : null,
-            icon: const Icon(Icons.lightbulb_outline),
+            icon: const Icon(Icons.lightbulb_outline, size: 28),
             tooltip: 'Hint',
           ),
           Padding(
@@ -280,7 +280,7 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
                       )
                     : IconButton(
                         onPressed: _submitAnswer,
-                        icon: const Icon(Icons.send),
+                        icon: const Icon(Icons.send, size: 28),
                       ),
               ),
               onSubmitted: (_) => _submitAnswer(),
@@ -319,7 +319,7 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
                             Icon(
                               _isCorrect ? Icons.check_circle : Icons.cancel,
                               color: _isCorrect ? Colors.green : Colors.red,
-                              size: 24,
+                              size: 28,
                             ),
                             const SizedBox(width: 12),
                             Expanded(

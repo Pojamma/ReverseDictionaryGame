@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 );
               },
               tooltip: 'Start Game',
-              child: const Icon(Icons.play_arrow),
+              child: const Icon(Icons.play_arrow, size: 28),
             )
           : null,
     );

@@ -1,0 +1,46 @@
+name: wordquest_reverse_dictionary
+description: "WordQuest: Reverse Dictionary - A word puzzle game where players guess words from definitions, emojis, or riddles."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+  
+  # Local Database & Storage
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  
+  # JSON Handling & Utilities
+  json_annotation: ^4.9.0
+  
+  # UI Components
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.13
+  
+  # Linting
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/puzzles/
+    - assets/images/
+    - assets/sounds/

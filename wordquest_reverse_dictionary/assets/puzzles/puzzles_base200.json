@@ -1,0 +1,3680 @@
+{
+  "version": "1.0.0",
+  "packs": [
+    {
+      "pack_id": "base200",
+      "name": "Base 200 Pack",
+      "description": "Expanded base pack with ~200 puzzles.",
+      "puzzles": [
+        {
+          "id": "base-0100",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0101",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0102",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0103",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0104",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0105",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0106",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0107",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0108",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0109",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0110",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0111",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0112",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0113",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0114",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0115",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0116",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0117",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0118",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0119",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0120",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0121",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0122",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0123",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0124",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0125",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0126",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0127",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0128",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0129",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0130",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0131",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0132",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0133",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0134",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0135",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0136",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0137",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0138",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0139",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0140",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0141",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0142",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0143",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0144",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0145",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0146",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0147",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0148",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0149",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0150",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0151",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0152",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0153",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0154",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0155",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0156",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0157",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0158",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0159",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0160",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0161",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0162",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0163",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0164",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0165",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0166",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0167",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0168",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0169",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0170",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0171",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0172",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0173",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0174",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0175",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0176",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0177",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0178",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0179",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0180",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0181",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0182",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0183",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0184",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0185",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0186",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0187",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0188",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0189",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0190",
+          "type": "definition",
+          "clue": "A domesticated feline animal.",
+          "answer": "cat",
+          "alt_answers": [
+            "kitty"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Meows",
+            "Common pet"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0191",
+          "type": "definition",
+          "clue": "Large mammal known for its trunk.",
+          "answer": "elephant",
+          "alt_answers": [],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Trunk",
+            "Big ears"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0192",
+          "type": "definition",
+          "clue": "A shape with three sides.",
+          "answer": "triangle",
+          "alt_answers": [],
+          "category": "math",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Three",
+            "Angles"
+          ],
+          "tags": [
+            "math"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0193",
+          "type": "definition",
+          "clue": "Opposite of victory.",
+          "answer": "defeat",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Loss",
+            "Not win"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0194",
+          "type": "definition",
+          "clue": "A word meaning quick to recover.",
+          "answer": "resilient",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Bounce back",
+            "Adapt"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0195",
+          "type": "definition",
+          "clue": "A device to take photographs.",
+          "answer": "camera",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Lens",
+            "Photos"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0196",
+          "type": "definition",
+          "clue": "The red planet.",
+          "answer": "mars",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Planet",
+            "Space"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0197",
+          "type": "definition",
+          "clue": "The process of plants making food with sunlight.",
+          "answer": "photosynthesis",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 3,
+          "length": 14,
+          "hints": [
+            "Sunlight",
+            "Chlorophyll"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 16
+        },
+        {
+          "id": "base-0198",
+          "type": "definition",
+          "clue": "A frozen form of water.",
+          "answer": "ice",
+          "alt_answers": [],
+          "category": "science",
+          "difficulty": 1,
+          "length": 3,
+          "hints": [
+            "Solid water",
+            "Cold"
+          ],
+          "tags": [
+            "science"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0199",
+          "type": "definition",
+          "clue": "An instrument used to tell time.",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "objects",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Ticks",
+            "Hands"
+          ],
+          "tags": [
+            "objects"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0200",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0201",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0202",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0203",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0204",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0205",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0206",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0207",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0208",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0209",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0210",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0211",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0212",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0213",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0214",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0215",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0216",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0217",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0218",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0219",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0220",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0221",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0222",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0223",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0224",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0225",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0226",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0227",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0228",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0229",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0230",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0231",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0232",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0233",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0234",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0235",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0236",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0237",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0238",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0239",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0240",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0241",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0242",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0243",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0244",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0245",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0246",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0247",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0248",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0249",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0250",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0251",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0252",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0253",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0254",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0255",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0256",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0257",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0258",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0259",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0260",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0261",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0262",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0263",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0264",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0265",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0266",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0267",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0268",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0269",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0270",
+          "type": "emoji",
+          "clue": "\ud83d\udc15\ud83d\udc3e",
+          "answer": "dogwalk",
+          "alt_answers": [
+            "dog walk"
+          ],
+          "category": "animals",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Pet",
+            "Leash"
+          ],
+          "tags": [
+            "animals"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0271",
+          "type": "emoji",
+          "clue": "\ud83c\udfe0\ud83d\udd25",
+          "answer": "housefire",
+          "alt_answers": [],
+          "category": "disaster",
+          "difficulty": 2,
+          "length": 9,
+          "hints": [
+            "Emergency",
+            "Danger"
+          ],
+          "tags": [
+            "disaster"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0272",
+          "type": "emoji",
+          "clue": "\ud83e\udd81\ud83d\udc51",
+          "answer": "lionking",
+          "alt_answers": [
+            "thelionking"
+          ],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Disney",
+            "Simba"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0273",
+          "type": "emoji",
+          "clue": "\ud83c\udf4e\ud83d\udcf1",
+          "answer": "appleiphone",
+          "alt_answers": [
+            "iphone"
+          ],
+          "category": "technology",
+          "difficulty": 2,
+          "length": 11,
+          "hints": [
+            "Fruit logo",
+            "Smartphone"
+          ],
+          "tags": [
+            "technology"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0274",
+          "type": "emoji",
+          "clue": "\u26a1\ud83e\uddd9\u200d\u2642\ufe0f",
+          "answer": "harrypotter",
+          "alt_answers": [],
+          "category": "movies",
+          "difficulty": 1,
+          "length": 11,
+          "hints": [
+            "Wizard",
+            "Scar"
+          ],
+          "tags": [
+            "movies"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0275",
+          "type": "emoji",
+          "clue": "\ud83d\ude97\ud83d\udca8",
+          "answer": "fastcar",
+          "alt_answers": [],
+          "category": "vehicles",
+          "difficulty": 1,
+          "length": 7,
+          "hints": [
+            "Speed",
+            "Drive"
+          ],
+          "tags": [
+            "vehicles"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0276",
+          "type": "emoji",
+          "clue": "\ud83d\udeeb\ud83c\udf0d",
+          "answer": "jetlag",
+          "alt_answers": [],
+          "category": "travel",
+          "difficulty": 2,
+          "length": 6,
+          "hints": [
+            "Flight",
+            "Tired"
+          ],
+          "tags": [
+            "travel"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0277",
+          "type": "emoji",
+          "clue": "\ud83c\udfb8\ud83c\udfb6",
+          "answer": "rockmusic",
+          "alt_answers": [],
+          "category": "music",
+          "difficulty": 1,
+          "length": 9,
+          "hints": [
+            "Band",
+            "Songs"
+          ],
+          "tags": [
+            "music"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0278",
+          "type": "emoji",
+          "clue": "\ud83c\udff0\ud83d\udc09",
+          "answer": "dragoncastle",
+          "alt_answers": [],
+          "category": "fantasy",
+          "difficulty": 2,
+          "length": 12,
+          "hints": [
+            "Fire",
+            "Knights"
+          ],
+          "tags": [
+            "fantasy"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0279",
+          "type": "emoji",
+          "clue": "\ud83d\udca4\ud83d\ude34",
+          "answer": "sleeping",
+          "alt_answers": [],
+          "category": "vocabulary",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Nap",
+            "Rest"
+          ],
+          "tags": [
+            "vocabulary"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0280",
+          "type": "riddle",
+          "clue": "The more you take away, the bigger I get. What am I?",
+          "answer": "hole",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Ground",
+            "Empty"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0281",
+          "type": "riddle",
+          "clue": "I\u2019m tall when I\u2019m young, and short when I\u2019m old. What am I?",
+          "answer": "candle",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Wax",
+            "Light"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0282",
+          "type": "riddle",
+          "clue": "What has a head, a tail, but no body?",
+          "answer": "coin",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Money",
+            "Flip"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0283",
+          "type": "riddle",
+          "clue": "What has hands but can\u2019t clap?",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Time",
+            "Ticks"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0284",
+          "type": "riddle",
+          "clue": "The more you take from me, the more I become. What am I?",
+          "answer": "hole",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 4,
+          "hints": [
+            "Dug",
+            "Empty"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0285",
+          "type": "riddle",
+          "clue": "I fly without wings. I cry without eyes. What am I?",
+          "answer": "cloud",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 5,
+          "hints": [
+            "Sky",
+            "Rain"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0286",
+          "type": "riddle",
+          "clue": "I have keys but no locks, space but no room. What am I?",
+          "answer": "keyboard",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Computer",
+            "Typing"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0287",
+          "type": "riddle",
+          "clue": "What has an endless supply of letters but starts empty?",
+          "answer": "mailbox",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 7,
+          "hints": [
+            "Post",
+            "Envelope"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0288",
+          "type": "riddle",
+          "clue": "What comes down but never goes up?",
+          "answer": "rain",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Sky",
+            "Weather"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0289",
+          "type": "riddle",
+          "clue": "I get wetter as I dry. What am I?",
+          "answer": "towel",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Bath",
+            "Cloth"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0290",
+          "type": "riddle",
+          "clue": "The more you take away, the bigger I get. What am I?",
+          "answer": "hole",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Ground",
+            "Empty"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0291",
+          "type": "riddle",
+          "clue": "I\u2019m tall when I\u2019m young, and short when I\u2019m old. What am I?",
+          "answer": "candle",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 6,
+          "hints": [
+            "Wax",
+            "Light"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0292",
+          "type": "riddle",
+          "clue": "What has a head, a tail, but no body?",
+          "answer": "coin",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Money",
+            "Flip"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0293",
+          "type": "riddle",
+          "clue": "What has hands but can\u2019t clap?",
+          "answer": "clock",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Time",
+            "Ticks"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0294",
+          "type": "riddle",
+          "clue": "The more you take from me, the more I become. What am I?",
+          "answer": "hole",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 4,
+          "hints": [
+            "Dug",
+            "Empty"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0295",
+          "type": "riddle",
+          "clue": "I fly without wings. I cry without eyes. What am I?",
+          "answer": "cloud",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 5,
+          "hints": [
+            "Sky",
+            "Rain"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0296",
+          "type": "riddle",
+          "clue": "I have keys but no locks, space but no room. What am I?",
+          "answer": "keyboard",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 8,
+          "hints": [
+            "Computer",
+            "Typing"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0297",
+          "type": "riddle",
+          "clue": "What has an endless supply of letters but starts empty?",
+          "answer": "mailbox",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 2,
+          "length": 7,
+          "hints": [
+            "Post",
+            "Envelope"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 14
+        },
+        {
+          "id": "base-0298",
+          "type": "riddle",
+          "clue": "What comes down but never goes up?",
+          "answer": "rain",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 4,
+          "hints": [
+            "Sky",
+            "Weather"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        },
+        {
+          "id": "base-0299",
+          "type": "riddle",
+          "clue": "I get wetter as I dry. What am I?",
+          "answer": "towel",
+          "alt_answers": [],
+          "category": "riddle",
+          "difficulty": 1,
+          "length": 5,
+          "hints": [
+            "Bath",
+            "Cloth"
+          ],
+          "tags": [
+            "riddle"
+          ],
+          "points": 12
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "packs": [
+    {
+      "pack_id": "movies-tv-001",
+      "name": "Movies & TV Pack",
+      "description": "Guess the movies and shows from emoji clues, riddles, and tricky definitions.",
+      "puzzles": [
+        {"id":"movies-0001","type":"emoji","clue":"🧙⚡🦉","answer":"harry potter","alt_answers":["harrypotter"],"category":"movies","difficulty":1,"length":12,"hints":["Wizard school","Scar"],"tags":["fantasy"],"points":12},
+        {"id":"movies-0002","type":"emoji","clue":"🦖🏞️","answer":"jurassic park","alt_answers":[],"category":"movies","difficulty":1,"length":12,"hints":["Dinosaurs","Island"],"tags":["adventure"],"points":12},
+        {"id":"movies-0003","type":"emoji","clue":"🕷️🧑‍🎤🕸️","answer":"spiderman","alt_answers":["spider-man"],"category":"movies","difficulty":1,"length":9,"hints":["Marvel","Superhero"],"tags":["action"],"points":12},
+        {"id":"movies-0004","type":"emoji","clue":"🧟‍♂️🚶‍♂️🚶‍♀️","answer":"the walking dead","alt_answers":["walking dead"],"category":"tv","difficulty":2,"length":15,"hints":["Zombies","Survival"],"tags":["horror"],"points":14},
+        {"id":"movies-0005","type":"emoji","clue":"🚢🧊❤️","answer":"titanic","alt_answers":[],"category":"movies","difficulty":1,"length":7,"hints":["Ship","Iceberg"],"tags":["romance"],"points":11},
+        {"id":"movies-0006","type":"emoji","clue":"👽📞🏠","answer":"et","alt_answers":["e.t."],"category":"movies","difficulty":1,"length":2,"hints":["Alien","Phone home"],"tags":["family"],"points":10},
+        {"id":"movies-0007","type":"emoji","clue":"🦁👑","answer":"the lion king","alt_answers":["lion king"],"category":"movies","difficulty":1,"length":13,"hints":["Disney","Simba"],"tags":["animation"],"points":12},
+        {"id":"movies-0008","type":"emoji","clue":"🌌🚀🤖","answer":"star wars","alt_answers":[],"category":"movies","difficulty":1,"length":9,"hints":["Jedi","Galaxy"],"tags":["sci-fi"],"points":12},
+        {"id":"movies-0009","type":"emoji","clue":"👨🏻‍🦳⚡🔨","answer":"thor","alt_answers":[],"category":"movies","difficulty":1,"length":4,"hints":["Hammer","Norse god"],"tags":["superhero"],"points":11},
+        {"id":"movies-0010","type":"emoji","clue":"🧟‍♀️🏴‍☠️","answer":"pirates of the caribbean","alt_answers":["pirates caribbean"],"category":"movies","difficulty":2,"length":22,"hints":["Captain Jack","Sea adventure"],"tags":["pirates"],"points":15},
+        {"id":"movies-0011","type":"riddle","clue":"In this series, winter is always coming. What is it?","answer":"game of thrones","alt_answers":["got"],"category":"tv","difficulty":2,"length":15,"hints":["Dragons","Iron Throne"],"tags":["fantasy"],"points":14},
+        {"id":"movies-0012","type":"riddle","clue":"A chemistry teacher turns to crime. Which show?","answer":"breaking bad","alt_answers":[],"category":"tv","difficulty":2,"length":12,"hints":["Meth","Heisenberg"],"tags":["crime"],"points":14},
+        {"id":"movies-0013","type":"definition","clue":"An American sitcom set in New York City about six friends.","answer":"friends","alt_answers":[],"category":"tv","difficulty":1,"length":7,"hints":["Central Perk","Ross & Rachel"],"tags":["comedy"],"points":12},
+        {"id":"movies-0014","type":"definition","clue":"A science-fiction franchise featuring a crew on the USS Enterprise.","answer":"star trek","alt_answers":[],"category":"tv","difficulty":1,"length":9,"hints":["Captain Kirk","Spock"],"tags":["sci-fi"],"points":12},
+        {"id":"movies-0015","type":"definition","clue":"An American drama about survivors of a plane crash on a mysterious island.","answer":"lost","alt_answers":[],"category":"tv","difficulty":2,"length":4,"hints":["Oceanic 815","Island mystery"],"tags":["drama"],"points":13}
+      ]
+    }
+  ]
+}

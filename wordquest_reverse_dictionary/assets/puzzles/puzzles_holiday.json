@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "packs": [
+    {
+      "pack_id": "holiday-001",
+      "name": "Holiday Words Pack",
+      "description": "Celebrate the seasons! Guess words related to holidays and traditions around the world.",
+      "puzzles": [
+        {"id":"holiday-0001","type":"emoji","clue":"🎄🎁✨","answer":"christmas","alt_answers":[],"category":"holiday","difficulty":1,"length":9,"hints":["December","Tree & gifts"],"tags":["winter"],"points":12},
+        {"id":"holiday-0002","type":"emoji","clue":"🎃👻🍬","answer":"halloween","alt_answers":[],"category":"holiday","difficulty":1,"length":9,"hints":["Costumes","Candy"],"tags":["autumn"],"points":12},
+        {"id":"holiday-0003","type":"emoji","clue":"🦃🥧🍂","answer":"thanksgiving","alt_answers":[],"category":"holiday","difficulty":1,"length":12,"hints":["Turkey","November"],"tags":["autumn"],"points":12},
+        {"id":"holiday-0004","type":"emoji","clue":"💘🏹🌹","answer":"valentines day","alt_answers":["valentine's day"],"category":"holiday","difficulty":1,"length":14,"hints":["Love","Hearts"],"tags":["romance"],"points":12},
+        {"id":"holiday-0005","type":"emoji","clue":"🥂🎆🇺🇸","answer":"independence day","alt_answers":["4th of july","fourth of july"],"category":"holiday","difficulty":2,"length":16,"hints":["Fireworks","July"],"tags":["summer"],"points":14},
+        {"id":"holiday-0006","type":"emoji","clue":"🐇🥚🌸","answer":"easter","alt_answers":[],"category":"holiday","difficulty":1,"length":6,"hints":["Egg hunt","Spring"],"tags":["spring"],"points":11},
+        {"id":"holiday-0007","type":"emoji","clue":"☪️🌙✨","answer":"ramadan","alt_answers":[],"category":"holiday","difficulty":2,"length":7,"hints":["Islamic month","Fasting"],"tags":["faith"],"points":13},
+        {"id":"holiday-0008","type":"emoji","clue":"🕎🕯️✡️","answer":"hanukkah","alt_answers":["chanukah"],"category":"holiday","difficulty":2,"length":8,"hints":["Jewish festival","Menorah"],"tags":["faith"],"points":13},
+        {"id":"holiday-0009","type":"emoji","clue":"🧧🐉🥟","answer":"chinese new year","alt_answers":["lunar new year"],"category":"holiday","difficulty":2,"length":15,"hints":["Red envelopes","Dragons"],"tags":["asia"],"points":14},
+        {"id":"holiday-0010","type":"emoji","clue":"🎆🎉🥳","answer":"new years eve","alt_answers":["new year"],"category":"holiday","difficulty":1,"length":12,"hints":["Midnight","Countdown"],"tags":["winter"],"points":12},
+        {"id":"holiday-0011","type":"riddle","clue":"I arrive at midnight with fireworks, champagne, and resolutions. What holiday am I?","answer":"new year","alt_answers":["new years","new year's"],"category":"holiday","difficulty":1,"length":8,"hints":["Calendar","January"],"tags":["classic"],"points":12},
+        {"id":"holiday-0012","type":"riddle","clue":"I am the day when people wear green and look for luck. What am I?","answer":"st patricks day","alt_answers":["st. patrick's day"],"category":"holiday","difficulty":2,"length":15,"hints":["Ireland","Shamrocks"],"tags":["spring"],"points":13},
+        {"id":"holiday-0013","type":"definition","clue":"A holiday when workers are celebrated, observed in September in the U.S.","answer":"labor day","alt_answers":[],"category":"holiday","difficulty":2,"length":9,"hints":["End of summer","Workers"],"tags":["september"],"points":13},
+        {"id":"holiday-0014","type":"definition","clue":"A Mexican holiday honoring deceased loved ones.","answer":"day of the dead","alt_answers":["dia de los muertos"],"category":"holiday","difficulty":2,"length":14,"hints":["Skulls","Altars"],"tags":["november"],"points":14},
+        {"id":"holiday-0015","type":"definition","clue":"A Hindu festival of lights, celebrated with lamps and fireworks.","answer":"diwali","alt_answers":[],"category":"holiday","difficulty":2,"length":6,"hints":["India","Lamps"],"tags":["festival"],"points":13}
+      ]
+    }
+  ]
+}
